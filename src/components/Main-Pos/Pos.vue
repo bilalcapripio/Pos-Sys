@@ -146,7 +146,6 @@
                                             <div class="input-group pt-2">
                                                 <input type="text" class="form-control" placeholder="Last name">
                                                 <div class="input-group-prepend">
-                                                    <!-- <i class="fa fa-barcode input-group-text"></i> -->
                                                     <button class="btn btn-primary">All</button>
                                                 </div>
                                             </div>
