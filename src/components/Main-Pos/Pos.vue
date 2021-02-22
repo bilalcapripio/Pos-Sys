@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav class=" navbar navbar-expand navbar-primary navbar-dark">
+        <nav class="navbar navbar-expand navbar-primary navbar-dark">
         <!-- Left navbar links -->
         <ul class="navbar-nav">
           <li class="nav-item pl-5 pt-2 text-light">
