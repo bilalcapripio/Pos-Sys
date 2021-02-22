@@ -29,7 +29,11 @@
                                                                             </div>
                                                                         </div>
                                                                         <button class="btn btn-warning">Back</button>
+                                                                        &nbsp;
+
                                                                         <button class="btn btn-success">Send</button>
+                                                                        &nbsp;
+
                                                                         <button class="btn btn-danger">Close</button>
                                                                     </form>
                                                             </div>

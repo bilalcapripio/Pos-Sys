@@ -51,6 +51,10 @@ import Add_Supplier from '@/components/Suppplier/Supplier.vue';
 import Role from '@/components/Users/Role.vue';
 import Users from '@/components/Users/User-List.vue';
 import Add_User from '@/components/Users/User.vue';
+import Print from '@/components/Items/Print.vue';
+import Send from '@/components/Sms/Send.vue';
+import Template from '@/components/Sms/Template.vue';
+
 
 
 
@@ -66,7 +70,8 @@ const routes=[
     {path:'/Expences', name:'Expences', component:Expences},
     {path:'/Add_Expence', name:'Add_Expence', component:Add_Expence},
     {path:'/Add_item_Brand', name:'Add_item_Brand', component:Add_item_Brand},
-    {path:'/item_Brand', name:'item_Brand', component:item_Brand},    
+    {path:'/item_Brand', name:'item_Brand', component:item_Brand},  
+    {path:'/Print', name:'Print', component:Print},        
     {path:'/Add_item_Category', name:'Add_item_Category', component:Add_item_Category},
     {path:'/item_Category', name:'item_Category', component:item_Category},    
     {path:'/items', name:'items', component:items},
@@ -107,6 +112,8 @@ const routes=[
     {path:'/Role', name:'Role', component:Role},
     {path:'/Users', name:'Users', component:Users},
     {path:'/Add_User', name:'Add_User', component:Add_User},
+    {path:'/Send', name:'Send', component:Send},
+    {path:'/Template', name:'Template', component:Template},
 
 ];
 

@@ -208,7 +208,7 @@
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a href="Pages/Items_Page/Print.html" class="nav-link">
+                          <a href="/Print" class="nav-link">
                             <i class="fa fa-list  nav-icon"></i>
                             <p> Print Labels </p>
                           </a>
@@ -419,13 +419,13 @@
                       </a>
                       <ul class="nav nav-treeview">
                         <li class="nav-item">
-                          <a href="Pages/Sms_Page/Send.html" class="nav-link">
+                          <a href="/Send" class="nav-link">
                             <i class="fa fa-envelope-o  nav-icon"></i>
                             <p>Send SMS</p>
                           </a>
                         </li>
                         <li class="nav-item">
-                          <a href="Pages/Sms_Page/Template.html" class="nav-link">
+                          <a href="/Template" class="nav-link">
                             <i class="fa fa-list nav-icon"></i>
                             <p>SMS Template</p>
                           </a>

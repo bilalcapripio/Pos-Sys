@@ -3,7 +3,7 @@
             <div>
                 <Navbar/>
                     <!-- /.content-wrapper -->
-                        <div class="content-wrapper p-2">
+                        <div class="wrapper p-2">
                                 <div class="content-wrapper">
                                         <!---Start Third card shop-->
                                         <h2 class="text-md ml-4 pt-3"><span class="text-lg"> Print Labels </span>   Add/ <small class="text-gray text-sm"><span>Update Sales</span></small></h2>
