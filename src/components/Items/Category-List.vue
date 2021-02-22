@@ -56,8 +56,7 @@
                                                                                 <th class="text-center sorting_disabled" rowspan="1" colspan="1" style="width: 59px;" aria-label="">
                                                                                 <div class="icheckbox_square-orange" aria-checked="false" aria-disabled="false" style="position: relative;">
                                                                                     <input type="checkbox" class="group_check checkbox" style="position: absolute; top: -10%; left: -10%; display: block; width: 120%; height: 120%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;">
-                                                                                    <ins class="iCheck-helper" style="position: absolute; top: -10%; left: -10%; display: block; width: 120%; height: 120%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;">
-                                                                                        </ins>
+                                                                                    <ins class="iCheck-helper" style="position: absolute; top: -10%; left: -10%; display: block; width: 120%; height: 120%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
                                                                                         </div>
                                                                                 </th>
                                                                                 <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" style="width: 214px;" aria-label="Category Code: activate to sort column ascending">Category Code</th>
@@ -69,12 +68,15 @@
                                                                                 </tr>
                                                                             </thead>  
                                                                             <tbody>
-                                                                                <tr role="row" class="odd"><td class=" text-center" tabindex="0"></td>
+                                                                                <tr role="row" class="odd">
+                                                                                    <td class=" text-center" tabindex="0">fgg</td>
                                                                                     <div>
                                                                                         <input type="checkbox">
                                                                                     </div>
-                                                                                        <td>CT0021</td>
+                                                                                        <td>CT0021</td
+                                                                                        
                                                                                         <td>Accessories</td>
+
                                                                                         <td>Accessories Description</td>
                                                                                         <td><span onclick="update_status(21,0)" id="span_21" class="label label-success" style="cursor:pointer">Active </span></td>
                                                                                         <td>

@@ -3,7 +3,7 @@
             <div>
                 <Navbar/>
                     <!-- /.content-wrapper -->
-                        <div class="content-wrapper p-2">
+                        <div class="content-wrapper p-2 mb-5">
                                 <div class="content-header">
                                         <div class="container-fluid">
                                         <h2 class="text-md ml-4"><span class="text-lg">Purchase Return</span> <span>Create New Purchase Return</span></h2>

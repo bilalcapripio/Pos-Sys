@@ -45,6 +45,7 @@
                                                                         </div>   
                                                                 </div>
                                                                 <button class="btn btn-success">Save</button>
+                                                                &nbsp;
                                                                 <button class="btn btn-warning">Close</button>
                                                             </form>
                                                     </div>
