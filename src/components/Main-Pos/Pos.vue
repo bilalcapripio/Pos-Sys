@@ -129,17 +129,10 @@
                     <div class="container-fluid pt-2">
                         <div class="card border-top border-primary">
                             <div class="card-header">                                                                      
-                                <!-- <h5 class=" pt-4">
-                                    <i class="box-title text-primary fa fa-shopping-cart text-aqua"></i>
-                                     Sales Invoice
-                                </h5> -->
                                 <!-- <div class="border-top"> -->
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="input-group pt-2">
-                                                <!-- <div class="input-group-prepend">
-                                                    <i class="fa fa-user input-group-text"></i>
-                                                </div> -->
                                                 <select name="" id="" class="form-control">
                                                     <option value="">All Categories</option>
                                                     <option value="">1</option>
