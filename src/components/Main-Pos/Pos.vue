@@ -85,308 +85,308 @@
         </nav>   
 
         <!-- //////////////////----End Navbar----//////////////////  -->
-                <main>
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-7">
-                                <div class="container-fluid pt-2">
-                                    <div class="card border-top border-primary">
-                                        <div class="card-header">                                                                      
-                                            <h5 class=" pt-4">
-                                                <i class="box-title text-primary fa fa-shopping-cart text-success"></i>
-                                                Sales Invoice
-                                            </h5>
-                                            <div class="border-top">
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <div class="input-group pt-2">
-                                                            <div class="input-group-prepend">
-                                                                <i class="fa fa-user input-group-text"></i>
-                                                            </div>
-                                                            <select name="" id="" class="form-control">
-                                                                <option value="">Walk-in-customer</option>
-                                                                <option value="">Walk-in-customer</option>
-                                                                <option value="">Walk-in-customer</option>
-                                                                <option value="">Walk-in-customer</option>
-                                                                <option value="">Walk-in-customer</option>
-                                                            </select>
-                                                            <div class="input-group-prepend">
-                                                                <i class="fa fa-user-plus text-primary fa-lg input-group-text"></i>
-                                                            </div>
-                                                        </div>
+        <main class="bg-light mt-2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="container-fluid pt-2">
+                            <div class="card border-top border-primary">
+                                <div class="card-header">                                                                      
+                                    <h5 class=" pt-4">
+                                        <i class="box-title text-primary fa fa-shopping-cart text-success"></i>
+                                        Sales Invoice
+                                    </h5>
+                                    <div class="border-top">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="input-group pt-2">
+                                                    <div class="input-group-prepend">
+                                                        <i class="fa fa-user input-group-text"></i>
                                                     </div>
-                                                    <div class="col-md-6">
-                                                        <div class="input-group pt-2">
-                                                            <div class="input-group-prepend">
-                                                                <i class="fa fa-barcode input-group-text"></i>
-                                                            </div>
-                                                            <input type="text" class="form-control" placeholder="Last name">
-                                                        </div>
+                                                    <select name="" id="" class="form-control">
+                                                        <option value="">Walk-in-customer</option>
+                                                        <option value="">Walk-in-customer</option>
+                                                        <option value="">Walk-in-customer</option>
+                                                        <option value="">Walk-in-customer</option>
+                                                        <option value="">Walk-in-customer</option>
+                                                    </select>
+                                                    <div class="input-group-prepend">
+                                                        <i class="fa fa-user-plus text-primary fa-lg input-group-text"></i>
                                                     </div>
                                                 </div>
-                                                    <div class="box-body mt-4 border border-primary" style="width:100%; height:300px">
-                                                    <div class="table-responsive p-1" style="width: 100%">
-                                                        <table class="table table-hover table-bordered" style="width:100%" id="sales_table">
-                                                            <thead class="custom_thead ">
-                                                                <tr class="bg-primary">
-                                                                    <th rowspan="2" style="width:15%">Item Name</th>
-                                                                    <th rowspan="2" style="width:10%;min-width: 180px;">Stock</th>
-                                                                    <th rowspan="2" style="width:10%">Quantity</th> 
-                                                                    <th rowspan="2" style="width:10%">Price</th>
-                                                                    <th rowspan="2" style="width:10%">Discount</th>
-                                                                    <th rowspan="2" style="width:5%">Tax</th>
-                                                                    <th rowspan="2" style="width:7.5%">SubTotal</th>
-                                                                    <th rowspan="2" style="width:7.5%">X</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <!-- <tr>
-                                                                    <td>test</td>
-                                                                    <td>test</td>
-                                                                    <td>test</td>
-                                                                    <td>test</td>
-                                                                    <td>test</td>
-                                                                    <td>test</td>
-                                                                    <td>test</td>
-                                                                </tr> -->
-                                                            </tbody> 
-                                                        </table>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input-group pt-2">
+                                                    <div class="input-group-prepend">
+                                                        <i class="fa fa-barcode input-group-text"></i>
                                                     </div>
-                                                </div>  
-                                                <div class="row mt-4">
-                                                    <div class="col-md-1">
-                                                        <!-- <div class="d-flex align-items-center mx-auto"> -->
-                                                            <input type="checkbox" disabled name="" class="form-control" id="check">
-                                                        <!-- </div> -->
-                                                    </div>
-                                                    <div class="col-md-3 pt-2">
-                                                        <label for="check">Send SMS to Customer <i class="fa fa-info-circle text-maroon text-black hover-q"></i> </label>
-                                                    </div>
-                                                    <div class="offset-md-4 col-md-2 pt-2">
-                                                        <label for="#check">Other Charges*</label>
-                                                    </div>
-                                                    <div class="col-md-2">
-                                                        <input type="text" name="" placeholder="0.00" class="text-right form-control" id="check">
-                                                    </div>
+                                                    <input type="text" class="form-control" placeholder="Last name">
                                                 </div>
-                                                <div class="mt-4 bg-light p-2">
-                                                    <div class="row">
-                                                        <div class="col-md-3 text-right">
-                                                            <b>Quantity:</b>
-                                                            <br>
-                                                            <span class="text-primary text-bold">0</span>
-                                                        </div>
-                                                        <div class="col-md-3 text-right">
-                                                            <b>Total Amount:</b>
-                                                            <br>
-                                                            <span class="text-primary text-bold">0.00</span>
-                                                        </div>    
-                                                        <div class="col-md-3 text-right">
-                                                            <b>Total Discount:</b>
-                                                            <br>
-                                                            <span class="text-primary text-bold">0.00</span>
-                                                        </div>    
-                                                        <div class="col-md-3 text-right">
-                                                            <b>Grand Total:</b>
-                                                            <br>
-                                                            <span class="text-primary text-bold">0.00</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-md-3">
-                                                            <button class="btn bg-maroon btn-block btn-flat btn-lg"> <i class="fa fa-hand-paper-o"></i> Hold</button>
-                                                        </div>
-                                                        <div class="col-md-3">
-                                                            <button class="btn btn-primary btn-block btn-flat btn-lg"> <i class="fa fa-credit-card"></i> Multiple</button>
-                                                        </div>
-                                                        <div class="col-md-3">
-                                                            <button class="btn btn-success btn-block btn-flat btn-lg"> <i class="fa fa-money"></i> Cash</button>
-                                                        </div>
-                                                        <div class="col-md-3">
-                                                            <button class="btn bg-purple btn-block btn-flat btn-lg"> <i class="fa fa-money"></i> PayAll</button>
-                                                        </div>
-                                                    </div>
+                                            </div>
+                                        </div>
+                                            <div class="box-body mt-4 border border-primary" style="width:100%; height:300px">
+                                            <div class="table-responsive p-1" style="width: 100%">
+                                                <table class="table table-hover table-bordered" style="width:100%" id="sales_table">
+                                                    <thead class="custom_thead ">
+                                                        <tr class="bg-primary">
+                                                            <th rowspan="2" style="width:15%">Item Name</th>
+                                                            <th rowspan="2" style="width:10%;min-width: 180px;">Stock</th>
+                                                            <th rowspan="2" style="width:10%">Quantity</th> 
+                                                            <th rowspan="2" style="width:10%">Price</th>
+                                                            <th rowspan="2" style="width:10%">Discount</th>
+                                                            <th rowspan="2" style="width:5%">Tax</th>
+                                                            <th rowspan="2" style="width:7.5%">SubTotal</th>
+                                                            <th rowspan="2" style="width:7.5%">X</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <!-- <tr>
+                                                            <td>test</td>
+                                                            <td>test</td>
+                                                            <td>test</td>
+                                                            <td>test</td>
+                                                            <td>test</td>
+                                                            <td>test</td>
+                                                            <td>test</td>
+                                                        </tr> -->
+                                                    </tbody> 
+                                                </table>
+                                            </div>
+                                        </div>  
+                                        <div class="row mt-4">
+                                            <div class="col-md-1">
+                                                <!-- <div class="d-flex align-items-center mx-auto"> -->
+                                                    <input type="checkbox" disabled name="" class="form-control" id="check">
+                                                <!-- </div> -->
+                                            </div>
+                                            <div class="col-md-3 pt-2">
+                                                <label for="check">Send SMS to Customer <i class="fa fa-info-circle text-maroon text-black hover-q"></i> </label>
+                                            </div>
+                                            <div class="offset-md-4 col-md-2 pt-2">
+                                                <label for="#check">Other Charges*</label>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <input type="text" name="" placeholder="0.00" class="text-right form-control" id="check">
+                                            </div>
+                                        </div>
+                                        <div class="mt-4 bg-light p-2">
+                                            <div class="row">
+                                                <div class="col-md-3 text-right">
+                                                    <b>Quantity:</b>
+                                                    <br>
+                                                    <span class="text-primary text-bold">0</span>
+                                                </div>
+                                                <div class="col-md-3 text-right">
+                                                    <b>Total Amount:</b>
+                                                    <br>
+                                                    <span class="text-primary text-bold">0.00</span>
+                                                </div>    
+                                                <div class="col-md-3 text-right">
+                                                    <b>Total Discount:</b>
+                                                    <br>
+                                                    <span class="text-primary text-bold">0.00</span>
+                                                </div>    
+                                                <div class="col-md-3 text-right">
+                                                    <b>Grand Total:</b>
+                                                    <br>
+                                                    <span class="text-primary text-bold">0.00</span>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <button class="btn bg-maroon btn-block btn-flat btn-lg"> <i class="fa fa-hand-paper-o"></i> Hold</button>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <button class="btn btn-primary btn-block btn-flat btn-lg"> <i class="fa fa-credit-card"></i> Multiple</button>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <button class="btn btn-success btn-block btn-flat btn-lg"> <i class="fa fa-money"></i> Cash</button>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <button class="btn bg-purple btn-block btn-flat btn-lg"> <i class="fa fa-money"></i> PayAll</button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-5">
-                                <div class="container-fluid pt-2">
-                                    <div class="card border-top border-primary">
-                                        <div class="card-header">                                                                      
-                                                <div class="row">
-                                                    <div class="col-md-6">
-                                                        <div class="input-group pt-2">
-                                                            <select name="" id="" class="form-control">
-                                                                <option value="">All Categories</option>
-                                                                <option value="">1</option>
-                                                                <option value="">1</option>
-                                                                <option value="">1</option>
-                                                                <option value="">1</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <div class="input-group pt-2">
-                                                            <input type="text" class="form-control" placeholder="Last name">
-                                                            <div class="input-group-prepend">
-                                                                <!-- <i class="fa fa-barcode input-group-text"></i> -->
-                                                                <button class="btn btn-primary">All</button>
-                                                            </div>
-                                                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="container-fluid pt-2">
+                            <div class="card border-top border-primary">
+                                <div class="card-header">                                                                      
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="input-group pt-2">
+                                                    <select name="" id="" class="form-control">
+                                                        <option value="">All Categories</option>
+                                                        <option value="">1</option>
+                                                        <option value="">1</option>
+                                                        <option value="">1</option>
+                                                        <option value="">1</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input-group pt-2">
+                                                    <input type="text" class="form-control" placeholder="Last name">
+                                                    <div class="input-group-prepend">
+                                                        <!-- <i class="fa fa-barcode input-group-text"></i> -->
+                                                        <button class="btn btn-primary">All</button>
                                                     </div>
                                                 </div>
-
-                                                <div class="row mt-2">
-                                                    <div class="col-md-3  bg-success border-right rounded">
-                                                        <div class="box ">
-                                                            <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                        </div>
-                                                        <div class="img-box p-2 text-center">
-                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                            <h3 class="lead pt-2">Rolex</h3>
-                                                            <h4 class="text-italic lead">$10,000</h4> 
-                                                        </div>
-                                                        
-                                                    </div>
-                                                    <div class="col-md-3 bg-success border-right rounded">
-                                                        <div class="box ">
-                                                            <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                        </div>
-                                                        <div class="img-box p-2 text-center">
-                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                            <h3 class="lead pt-2">Rolex</h3>
-                                                            <h4 class="text-italic lead">$10,000</h4> 
-                                                        </div>
-                                                        
-                                                    </div>
-                                                    <div class="col-md-3 bg-success border-right rounded">
-                                                        <div class="box ">
-                                                            <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                        </div>
-                                                        <div class="img-box p-2 text-center">
-                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                            <h3 class="lead pt-2">Rolex</h3>
-                                                            <h4 class="text-italic lead">$10,000</h4> 
-                                                        </div>
-                                                        
-                                                    </div>
-                                                    <div class="col-md-3 bg-success rounded">
-                                                        <div class="box ">
-                                                            <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                        </div>
-                                                        <div class="img-box p-2 text-center">
-                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                            <h3 class="lead pt-2">Rolex</h3>
-                                                            <h4 class="text-italic lead">$10,000</h4> 
-                                                        </div>
-                                                        
-                                                    </div>
-                                                </div>
-
-                                                <div class="row mt-2">
-                                                    <div class="col-md-3  bg-success border-right rounded">
-                                                        <div class="box ">
-                                                            <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                        </div>
-                                                        <div class="img-box p-2 text-center">
-                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                            <h3 class="lead pt-2">Rolex</h3>
-                                                            <h4 class="text-italic lead">$10,000</h4> 
-                                                        </div>
-                                                        
-                                                    </div>
-                                                    <div class="col-md-3 bg-success border-right rounded">
-                                                        <div class="box ">
-                                                            <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                        </div>
-                                                        <div class="img-box p-2 text-center">
-                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                            <h3 class="lead pt-2">Rolex</h3>
-                                                            <h4 class="text-italic lead">$10,000</h4> 
-                                                        </div>
-                                                        
-                                                    </div>
-                                                    <div class="col-md-3 bg-success border-right rounded">
-                                                        <div class="box ">
-                                                            <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                        </div>
-                                                        <div class="img-box p-2 text-center">
-                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                            <h3 class="lead pt-2">Rolex</h3>
-                                                            <h4 class="text-italic lead">$10,000</h4> 
-                                                        </div>
-                                                        
-                                                    </div>
-                                                    <div class="col-md-3 bg-success rounded">
-                                                        <div class="box ">
-                                                            <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                        </div>
-                                                        <div class="img-box p-2 text-center">
-                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                            <h3 class="lead pt-2">Rolex</h3>
-                                                            <h4 class="text-italic lead">$10,000</h4> 
-                                                        </div>
-                                                        
-                                                    </div>
-                                                </div>
-
-                                                <div class="row mt-2">
-                                                    <div class="col-md-3  bg-success border-right rounded">
-                                                        <div class="box ">
-                                                            <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                        </div>
-                                                        <div class="img-box p-2 text-center">
-                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                            <h3 class="lead pt-2">Rolex</h3>
-                                                            <h4 class="text-italic lead">$10,000</h4> 
-                                                        </div>
-                                                        
-                                                    </div>
-                                                    <div class="col-md-3 bg-success border-right rounded">
-                                                        <div class="box ">
-                                                            <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                        </div>
-                                                        <div class="img-box p-2 text-center">
-                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                            <h3 class="lead pt-2">Rolex</h3>
-                                                            <h4 class="text-italic lead">$10,000</h4> 
-                                                        </div>
-                                                        
-                                                    </div>
-                                                    <div class="col-md-3 bg-success border-right rounded">
-                                                        <div class="box ">
-                                                            <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                        </div>
-                                                        <div class="img-box p-2 text-center">
-                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                            <h3 class="lead pt-2">Rolex</h3>
-                                                            <h4 class="text-italic lead">$10,000</h4> 
-                                                        </div>
-                                                        
-                                                    </div>
-                                                    <div class="col-md-3 bg-success rounded">
-                                                        <div class="box ">
-                                                            <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                        </div>
-                                                        <div class="img-box p-2 text-center">
-                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                            <h3 class="lead pt-2">Rolex</h3>
-                                                            <h4 class="text-italic lead">$10,000</h4> 
-                                                        </div>
-                                                        
-                                                    </div>
-                                                </div>
+                                            </div>
                                         </div>
-                                    
-                                    </div>
+
+                                        <div class="row mt-2 mb-3">
+                                            <div class="col-md-3  bg-success border-right rounded">
+                                                <div class="box ">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                </div>
+                                                <div class="img-box p-2 text-center">
+                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
+                                                    <h3 class="lead pt-2">Rolex</h3>
+                                                    <h4 class="text-italic lead">$10,000</h4> 
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-md-3 bg-success border-right rounded">
+                                                <div class="box ">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                </div>
+                                                <div class="img-box p-2 text-center">
+                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
+                                                    <h3 class="lead pt-2">Rolex</h3>
+                                                    <h4 class="text-italic lead">$10,000</h4> 
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-md-3 bg-success border-right rounded">
+                                                <div class="box ">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                </div>
+                                                <div class="img-box p-2 text-center">
+                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
+                                                    <h3 class="lead pt-2">Rolex</h3>
+                                                    <h4 class="text-italic lead">$10,000</h4> 
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-md-3 bg-success rounded">
+                                                <div class="box ">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                </div>
+                                                <div class="img-box p-2 text-center">
+                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
+                                                    <h3 class="lead pt-2">Rolex</h3>
+                                                    <h4 class="text-italic lead">$10,000</h4> 
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-2 mb-3">
+                                            <div class="col-md-3  bg-success border-right rounded">
+                                                <div class="box ">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                </div>
+                                                <div class="img-box p-2 text-center">
+                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
+                                                    <h3 class="lead pt-2">Rolex</h3>
+                                                    <h4 class="text-italic lead">$10,000</h4> 
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-md-3 bg-success border-right rounded">
+                                                <div class="box ">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                </div>
+                                                <div class="img-box p-2 text-center">
+                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
+                                                    <h3 class="lead pt-2">Rolex</h3>
+                                                    <h4 class="text-italic lead">$10,000</h4> 
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-md-3 bg-success border-right rounded">
+                                                <div class="box ">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                </div>
+                                                <div class="img-box p-2 text-center">
+                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
+                                                    <h3 class="lead pt-2">Rolex</h3>
+                                                    <h4 class="text-italic lead">$10,000</h4> 
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-md-3 bg-success rounded">
+                                                <div class="box ">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                </div>
+                                                <div class="img-box p-2 text-center">
+                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
+                                                    <h3 class="lead pt-2">Rolex</h3>
+                                                    <h4 class="text-italic lead">$10,000</h4> 
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="row mt-2">
+                                            <div class="col-md-3  bg-success border-right rounded">
+                                                <div class="box ">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                </div>
+                                                <div class="img-box p-2 text-center">
+                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
+                                                    <h3 class="lead pt-2">Rolex</h3>
+                                                    <h4 class="text-italic lead">$10,000</h4> 
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-md-3 bg-success border-right rounded">
+                                                <div class="box ">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                </div>
+                                                <div class="img-box p-2 text-center">
+                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
+                                                    <h3 class="lead pt-2">Rolex</h3>
+                                                    <h4 class="text-italic lead">$10,000</h4> 
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-md-3 bg-success border-right rounded">
+                                                <div class="box ">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                </div>
+                                                <div class="img-box p-2 text-center">
+                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
+                                                    <h3 class="lead pt-2">Rolex</h3>
+                                                    <h4 class="text-italic lead">$10,000</h4> 
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-md-3 bg-success rounded">
+                                                <div class="box ">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                </div>
+                                                <div class="img-box p-2 text-center">
+                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
+                                                    <h3 class="lead pt-2">Rolex</h3>
+                                                    <h4 class="text-italic lead">$10,000</h4> 
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
                                 </div>
+                            
                             </div>
                         </div>
                     </div>
-                </main>
+                </div>
+            </div>
+        </main>
 </div>
 
 </template>
