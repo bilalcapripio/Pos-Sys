@@ -216,29 +216,28 @@
                         <div class="container-fluid pt-2">
                             <div class="card border-top border-primary">
                                 <div class="card-header">                                                                      
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="input-group pt-2">
-                                                    <select name="" id="" class="form-control">
-                                                        <option value="">All Categories</option>
-                                                        <option value="">1</option>
-                                                        <option value="">1</option>
-                                                        <option value="">1</option>
-                                                        <option value="">1</option>
-                                                    </select>
-                                                </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="input-group pt-2">
+                                                <select name="" id="" class="form-control">
+                                                    <option value="">All Categories</option>
+                                                    <option value="">1</option>
+                                                    <option value="">1</option>
+                                                    <option value="">1</option>
+                                                    <option value="">1</option>
+                                                </select>
                                             </div>
-                                            <div class="col-md-6">
-                                                <div class="input-group pt-2">
-                                                    <input type="text" class="form-control" placeholder="Last name">
-                                                    <div class="input-group-prepend">
-                                                        <!-- <i class="fa fa-barcode input-group-text"></i> -->
-                                                        <button class="btn btn-primary">All</button>
-                                                    </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="input-group pt-2">
+                                                <input type="text" class="form-control" placeholder="Filteres Items">
+                                                <div class="input-group-prepend">
+                                                    <button class="btn btn-primary">All</button>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div style="overflow-y: scroll;min-height: 100px;height: 600px; overflow-x:hidden" id="scroll">
+                                    </div>
+                                    <div style="overflow-y: scroll;min-height: 100px;height: 600px; overflow-x:hidden" id="scroll">
                                         <div class="row mt-2">
                                             <div class="col-md-3">
                                                 <div class="box box-default bg-success border" style="border-radius:5px">
@@ -248,10 +247,10 @@
                                                             <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
                                                         </center>
                                                         <center class="py-3">
-                                                        <label class="text-center" style="color:black;">Rado Watch
-                                                        <br>    
-                                                            <span>₹ 20,768.00</span>
-                                                        </label>
+                                                            <label class="text-center" style="color:black;">Rado Watch
+                                                                <br>    
+                                                                <span>₹ 20,768.00</span>
+                                                            </label>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -264,10 +263,10 @@
                                                             <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
                                                         </center>
                                                         <center class="py-3">
-                                                        <label class="text-center" style="color:black;">Rado Watch
-                                                        <br>    
-                                                            <span>₹ 20,768.00</span>
-                                                        </label>
+                                                            <label class="text-center" style="color:black;">Rado Watch
+                                                            <br>    
+                                                                <span>₹ 20,768.00</span>
+                                                            </label>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -281,10 +280,10 @@
                                                             <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
                                                         </center>
                                                         <center class="py-3">
-                                                        <label class="text-center" style="color:black;">Rado Watch
-                                                        <br>    
-                                                            <span>₹ 20,768.00</span>
-                                                        </label>
+                                                            <label class="text-center" style="color:black;">Rado Watch
+                                                            <br>    
+                                                                <span>₹ 20,768.00</span>
+                                                            </label>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -297,77 +296,10 @@
                                                             <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
                                                         </center>
                                                         <center class="py-3">
-                                                        <label class="text-center" style="color:black;">Rado Watch
-                                                        <br>    
-                                                            <span>₹ 20,768.00</span>
-                                                        </label>
-                                                        </center>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row mt-2">
-                                            <div class="col-md-3">
-                                                <div class="box box-default bg-success border" style="border-radius:5px">
-                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                    <div class="box-body box-profile">
-                                                        <center class="pt-1">
-                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
-                                                        </center>
-                                                        <center class="py-3">
-                                                        <label class="text-center" style="color:black;">Rado Watch
-                                                        <br>    
-                                                            <span>₹ 20,768.00</span>
-                                                        </label>
-                                                        </center>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <div class="box box-default bg-success border" style="border-radius:5px">
-                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                    <div class="box-body box-profile">
-                                                        <center class="pt-1">
-                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
-                                                        </center>
-                                                        <center class="py-3">
-                                                        <label class="text-center" style="color:black;">Rado Watch
-                                                        <br>    
-                                                            <span>₹ 20,768.00</span>
-                                                        </label>
-                                                        </center>
-                                                    </div>
-                                                </div>
-                                                
-                                            </div>
-                                            <div class="col-md-3">
-                                                <div class="box box-default bg-success border" style="border-radius:5px">
-                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                    <div class="box-body box-profile">
-                                                        <center class="pt-1">
-                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
-                                                        </center>
-                                                        <center class="py-3">
-                                                        <label class="text-center" style="color:black;">Rado Watch
-                                                        <br>    
-                                                            <span>₹ 20,768.00</span>
-                                                        </label>
-                                                        </center>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <div class="box box-default bg-success border" style="border-radius:5px">
-                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                    <div class="box-body box-profile">
-                                                        <center class="pt-1">
-                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
-                                                        </center>
-                                                        <center class="py-3">
-                                                        <label class="text-center" style="color:black;">Rado Watch
-                                                        <br>    
-                                                            <span>₹ 20,768.00</span>
-                                                        </label>
+                                                            <label class="text-center" style="color:black;">Rado Watch
+                                                            <br>    
+                                                                <span>₹ 20,768.00</span>
+                                                            </label>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -382,10 +314,10 @@
                                                             <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
                                                         </center>
                                                         <center class="py-3">
-                                                        <label class="text-center" style="color:black;">Rado Watch
-                                                        <br>    
-                                                            <span>₹ 20,768.00</span>
-                                                        </label>
+                                                            <label class="text-center" style="color:black;">Rado Watch
+                                                            <br>    
+                                                                <span>₹ 20,768.00</span>
+                                                            </label>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -398,10 +330,10 @@
                                                             <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
                                                         </center>
                                                         <center class="py-3">
-                                                        <label class="text-center" style="color:black;">Rado Watch
-                                                        <br>    
-                                                            <span>₹ 20,768.00</span>
-                                                        </label>
+                                                            <label class="text-center" style="color:black;">Rado Watch
+                                                            <br>    
+                                                                <span>₹ 20,768.00</span>
+                                                            </label>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -415,10 +347,10 @@
                                                             <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
                                                         </center>
                                                         <center class="py-3">
-                                                        <label class="text-center" style="color:black;">Rado Watch
-                                                        <br>    
-                                                            <span>₹ 20,768.00</span>
-                                                        </label>
+                                                            <label class="text-center" style="color:black;">Rado Watch
+                                                            <br>    
+                                                                <span>₹ 20,768.00</span>
+                                                            </label>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -431,10 +363,10 @@
                                                             <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
                                                         </center>
                                                         <center class="py-3">
-                                                        <label class="text-center" style="color:black;">Rado Watch
-                                                        <br>    
-                                                            <span>₹ 20,768.00</span>
-                                                        </label>
+                                                            <label class="text-center" style="color:black;">Rado Watch
+                                                            <br>    
+                                                                <span>₹ 20,768.00</span>
+                                                            </label>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -449,10 +381,10 @@
                                                             <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
                                                         </center>
                                                         <center class="py-3">
-                                                        <label class="text-center" style="color:black;">Rado Watch
-                                                        <br>    
-                                                            <span>₹ 20,768.00</span>
-                                                        </label>
+                                                            <label class="text-center" style="color:black;">Rado Watch
+                                                            <br>    
+                                                                <span>₹ 20,768.00</span>
+                                                            </label>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -465,10 +397,10 @@
                                                             <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
                                                         </center>
                                                         <center class="py-3">
-                                                        <label class="text-center" style="color:black;">Rado Watch
-                                                        <br>    
-                                                            <span>₹ 20,768.00</span>
-                                                        </label>
+                                                            <label class="text-center" style="color:black;">Rado Watch
+                                                            <br>    
+                                                                <span>₹ 20,768.00</span>
+                                                            </label>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -482,10 +414,10 @@
                                                             <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
                                                         </center>
                                                         <center class="py-3">
-                                                        <label class="text-center" style="color:black;">Rado Watch
-                                                        <br>    
-                                                            <span>₹ 20,768.00</span>
-                                                        </label>
+                                                            <label class="text-center" style="color:black;">Rado Watch
+                                                            <br>    
+                                                                <span>₹ 20,768.00</span>
+                                                            </label>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -498,10 +430,10 @@
                                                             <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
                                                         </center>
                                                         <center class="py-3">
-                                                        <label class="text-center" style="color:black;">Rado Watch
-                                                        <br>    
-                                                            <span>₹ 20,768.00</span>
-                                                        </label>
+                                                            <label class="text-center" style="color:black;">Rado Watch
+                                                            <br>    
+                                                                <span>₹ 20,768.00</span>
+                                                            </label>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -516,10 +448,10 @@
                                                             <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
                                                         </center>
                                                         <center class="py-3">
-                                                        <label class="text-center" style="color:black;">Rado Watch
-                                                        <br>    
-                                                            <span>₹ 20,768.00</span>
-                                                        </label>
+                                                            <label class="text-center" style="color:black;">Rado Watch
+                                                            <br>    
+                                                                <span>₹ 20,768.00</span>
+                                                            </label>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -532,10 +464,10 @@
                                                             <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
                                                         </center>
                                                         <center class="py-3">
-                                                        <label class="text-center" style="color:black;">Rado Watch
-                                                        <br>    
-                                                            <span>₹ 20,768.00</span>
-                                                        </label>
+                                                            <label class="text-center" style="color:black;">Rado Watch
+                                                            <br>    
+                                                                <span>₹ 20,768.00</span>
+                                                            </label>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -549,10 +481,10 @@
                                                             <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
                                                         </center>
                                                         <center class="py-3">
-                                                        <label class="text-center" style="color:black;">Rado Watch
-                                                        <br>    
-                                                            <span>₹ 20,768.00</span>
-                                                        </label>
+                                                            <label class="text-center" style="color:black;">Rado Watch
+                                                            <br>    
+                                                                <span>₹ 20,768.00</span>
+                                                            </label>
                                                         </center>
                                                     </div>
                                                 </div>
@@ -565,20 +497,84 @@
                                                             <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
                                                         </center>
                                                         <center class="py-3">
-                                                        <label class="text-center" style="color:black;">Rado Watch
-                                                        <br>    
-                                                            <span>₹ 20,768.00</span>
-                                                        </label>
+                                                            <label class="text-center" style="color:black;">Rado Watch
+                                                            <br>    
+                                                                <span>₹ 20,768.00</span>
+                                                            </label>
                                                         </center>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="row mt-2">
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                            <label class="text-center" style="color:black;">Rado Watch
+                                                            <br>    
+                                                                <span>₹ 20,768.00</span>
+                                                            </label>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                            <label class="text-center" style="color:black;">Rado Watch
+                                                            <br>    
+                                                                <span>₹ 20,768.00</span>
+                                                            </label>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                            <label class="text-center" style="color:black;">Rado Watch
+                                                            <br>    
+                                                                <span>₹ 20,768.00</span>
+                                                            </label>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                            <label class="text-center" style="color:black;">Rado Watch
+                                                            <br>    
+                                                                <span>₹ 20,768.00</span>
+                                                            </label>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        
-
+                                    </div>
                                 </div>
-                            
                             </div>
                         </div>
                     </div>
