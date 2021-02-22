@@ -3,16 +3,12 @@
         <nav class="navbar navbar-expand navbar-primary navbar-dark">
         <!-- Left navbar links -->
         <ul class="navbar-nav">
-          <li class="nav-item pl-5 pt-2 text-light">
-
-              <h5>Ultimate Inventory with POS</h5>
-            <!-- <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fa fa-bars"></i></a> -->
-          </li>
-          <!-- <li class="nav-item d-none d-sm-inline-block">
-            <a href="#" class="nav-link">POS</a>
-          </li> -->
+            <li class="nav-item pl-5 pt-2 text-light">
+                <h5>Ultimate Inventory with POS</h5>
+            </li>
+        
         <li class="nav-item pl-3">
-            <a class="nav-link" data-toggle="dropdown" href="#">
+            <a class="nav-link"  href="/Sales">
                 <i class="fa fa-list text-yellow"></i>
                 Sales List
             </a>
@@ -24,7 +20,7 @@
             </a>
         </li>
         <li class="nav-item pl-2">
-            <a class="nav-link" data-toggle="dropdown" href="#">
+            <a class="nav-link" data-toggle="dropdown" href="/items">
                 <i class="fa  fa-cubes text-yellow "></i>
                 Item List
             </a>
@@ -42,14 +38,14 @@
           </li>
 
           <li class="nav-item dropdown">
-              <a class="nav-link" data-toggle="dropdown" href="Pages/Pos_Calculation/Add.html">
+              <a class="nav-link" data-toggle="dropdown" href="/pos">
                   <i class="fa fa-plus"></i>
                   POS
               </a>
           </li>
 
           <li class="nav-item dropdown">
-              <a class="nav-link" data-toggle="dropdown" href="#">
+              <a class="nav-link" data-toggle="dropdown" href="/">
                   <i class="fa fa-dashboard"></i>
                   Dashboard
               </a>
@@ -81,11 +77,11 @@
             </ul>
           </li>
         </ul>
-      </nav>   
+        </nav>   
 
 <!-- //////////////////----End Navbar----//////////////////  -->
-        <main>
- 
+        <main class="container mt-5">
+
             <div class="row">
                 <div class="col-md-7">
                     <div class="container-fluid pt-2">
