@@ -1,82 +1,82 @@
 <template>
     <div>
         <nav class="navbar navbar-expand navbar-primary navbar-dark">
-        <!-- Left navbar links -->
-        <ul class="navbar-nav">
-            <li class="nav-item pl-5 pt-2 text-light">
-                <h5>Ultimate Inventory with POS</h5>
-            </li>
-        
-            <li class="nav-item pl-3">
-                <a class="nav-link"  href="/Sales">
-                    <i class="fa fa-list text-yellow"></i>
-                    Sales List
-                </a>
-            </li>
-            <li class="nav-item pl-2">
-                <a class="nav-link" data-toggle="dropdown" href="#">
-                    <i class="fa fa-calculator text-yellow "></i>
-                    New Invoice
-                </a>
-            </li>
-            <li class="nav-item pl-2">
-                <a class="nav-link" data-toggle="dropdown" href="/items">
-                    <i class="fa  fa-cubes text-yellow "></i>
-                    Item List
-                </a>
-            </li>
-        </ul>
-
-        <!-- Right navbar links -->
-        <ul class="navbar-nav ml-auto">
-          <!-- Messages Dropdown Menu -->
-          <li class="nav-item dropdown">
-              <a class="nav-link"  href="/">
-                  <i class="fa fa-language"></i>
-                  English
-              </a>
-          </li>
-
-          <li class="nav-item dropdown">
-              <a class="nav-link" href="/pos">
-                  <i class="fa fa-plus"></i>
-                  POS
-              </a>
-          </li>
-
-          <li class="nav-item dropdown">
-              <a class="nav-link" data-toggle="dropdown" href="/">
-                  <i class="fa fa-dashboard"></i>
-                  Dashboard
-              </a>
-          </li>
-
-
-          <li class="dropdown user user-menu open mt-2 ml-2">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-              <img src="../../assets/Img/admin.png" class="user-image" alt="User Image">
-              <span class="hidden-xs text-light">Admin</span>
-            </a>
-
-            <ul class="dropdown-menu bg-gradient-navy rounded">
-              <!-- User image -->
-              <li class="user-header">
-                <img src="#" class="img-circle img-fluid" alt="User Image">
-                    <p>Admin<small>Year 2021</small> </p>
-              </li>
-              <!-- Menu Body -->
-              <!-- Menu Footer-->
-              <li class="user-footer">
-                <div class="pull-left">
-                  <a href="#" class="btn btn-primary btn-flat">Profile</a>
-                </div>
-                <div class="pull-right">
-                  <a href="Logout.html" class="btn btn-danger btn-flat">Sign out</a>
-                </div>
-              </li>
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item pl-5 pt-2 text-light">
+                    <h5>Ultimate Inventory with POS</h5>
+                </li>
+            
+                <li class="nav-item pl-3">
+                    <a class="nav-link"  href="/Sales">
+                        <i class="fa fa-list text-yellow"></i>
+                        Sales List
+                    </a>
+                </li>
+                <li class="nav-item pl-2">
+                    <a class="nav-link" data-toggle="dropdown" href="#">
+                        <i class="fa fa-calculator text-yellow "></i>
+                        New Invoice
+                    </a>
+                </li>
+                <li class="nav-item pl-2">
+                    <a class="nav-link" data-toggle="dropdown" href="/items">
+                        <i class="fa  fa-cubes text-yellow "></i>
+                        Item List
+                    </a>
+                </li>
             </ul>
-          </li>
-        </ul>
+
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+            <!-- Messages Dropdown Menu -->
+            <li class="nav-item dropdown">
+                <a class="nav-link"  href="/">
+                    <i class="fa fa-language"></i>
+                    English
+                </a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="/pos">
+                    <i class="fa fa-plus"></i>
+                    POS
+                </a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link"  href="/">
+                    <i class="fa fa-dashboard"></i>
+                    Dashboard
+                </a>
+            </li>
+
+
+            <li class="dropdown user user-menu open mt-2 ml-2">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                <img src="../../assets/Img/admin.png" class="user-image" alt="User Image">
+                <span class="hidden-xs text-light">Admin</span>
+                </a>
+
+                <ul class="dropdown-menu bg-gradient-navy rounded">
+                <!-- User image -->
+                <li class="user-header">
+                    <img src="#" class="img-circle img-fluid" alt="User Image">
+                        <p>Admin<small>Year 2021</small> </p>
+                </li>
+                <!-- Menu Body -->
+                <!-- Menu Footer-->
+                <li class="user-footer">
+                    <div class="pull-left">
+                    <a href="#" class="btn btn-primary btn-flat">Profile</a>
+                    </div>
+                    <div class="pull-right">
+                    <a href="Logout.html" class="btn btn-danger btn-flat">Sign out</a>
+                    </div>
+                </li>
+                </ul>
+            </li>
+            </ul>
         </nav>   
 
 <!-- //////////////////----End Navbar----//////////////////  -->
@@ -89,7 +89,7 @@
                             <div class="card-header">                                                                      
                                 <h5 class=" pt-4">
                                     <i class="box-title text-primary fa fa-shopping-cart text-aqua"></i>
-                                     Sales Invoice
+                                        Sales Invoice
                                 </h5>
                                 <div class="border-top">
                                     <div class="row">
