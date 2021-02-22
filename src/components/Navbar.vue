@@ -16,11 +16,11 @@
                 <i class="fa fa-plus"></i>
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#"><i class="fa fa-plus text-success "></i> Sales</a>
-                <a class="dropdown-item" href="#"><i class="fa fa-plus text-success "></i> Purchase</a>
-                <a class="dropdown-item" href="#"><i class="fa fa-plus text-success "></i> Customer</a>
-                <a class="dropdown-item" href="#"><i class="fa fa-plus text-success "></i> Supplier</a>
-                <a class="dropdown-item" href="#"><i class="fa fa-plus text-success "></i> Items</a>
+                <a class="dropdown-item" href="/Sales"><i class="fa fa-plus text-success "></i> Sales</a>
+                <a class="dropdown-item" href="/Purchases"><i class="fa fa-plus text-success "></i> Purchase</a>
+                <a class="dropdown-item" href="/Customers"><i class="fa fa-plus text-success "></i> Customer</a>
+                <a class="dropdown-item" href="/Suppliers"><i class="fa fa-plus text-success "></i> Supplier</a>
+                <a class="dropdown-item" href="/items"><i class="fa fa-plus text-success "></i> Items</a>
                 <a class="dropdown-item" href="#"><i class="fa fa-plus text-success "></i> Expense</a>
               </div>
             </div>       

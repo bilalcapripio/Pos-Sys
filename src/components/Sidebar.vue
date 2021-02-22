@@ -90,12 +90,12 @@
                             <p>Customers List</p>
                           </a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                           <a href="#" class="nav-link">
                             <i class="fa fa-arrow-circle-o-left  nav-icon"></i>
                             <p>Import Customers</p>
                           </a>
-                        </li>
+                        </li> -->
                       </ul>
                     </li>
                     <li class="nav-item has-treeview mb-1">
