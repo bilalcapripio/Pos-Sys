@@ -140,9 +140,6 @@
                                                     <option value="">1</option>
                                                     <option value="">1</option>
                                                 </select>
-                                                <!-- <div class="input-group-prepend">
-                                                    <i class="fa fa-user-plus text-primary fa-lg input-group-text"></i>
-                                                </div> -->
                                             </div>
                                         </div>
                                         <div class="col-md-6">
