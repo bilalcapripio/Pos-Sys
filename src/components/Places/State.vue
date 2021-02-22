@@ -31,15 +31,17 @@
                                                                         <div class="form-group">
                                                                             <label for="category" class="col-sm-2 control-label">State Name<label class="text-danger">*</label></label>
                                                                         <div class="col-sm-4">
-                                                                        <input type="text" class="form-control input-sm" id="category" name="category" placeholder="" onkeyup="shift_cursor(event,'description')" value="" autofocus="">
+                                                                        <input type="text" class="form-control input-sm" id="category" name="state_name" placeholder="" onkeyup="shift_cursor(event,'description')" value="" autofocus="">
                                                                             <span id="category_msg" style="display:none" class="text-danger"></span>
                                                                         </div>
                                                                         </div> 
                                                                         <div class="form-group">
                                                                             <label for="country_name" class="col-sm-2 control-label">Country<label class="text-danger">*</label></label>
                                                                             <div class="col-sm-4">
-                                                                            <select class="form-control" id="country" name="country" style="width: 100%;">
-                                                                                <option value="">-Select-</option><option>Turkey</option><option value="Iran">Iran</option>                  </select>
+                                                                            <select class="form-control" id="country" name="state_country" style="width: 100%;">
+                                                                                <option value="">-Select-</option>
+                                                                                <option>Turkey</option><option value="Iran">Iran</option>                 
+                                                                            </select>
                                                                             <span id="country_msg" style="display:none" class="text-danger"></span>
                                                                             </div>
                                                                         </div>

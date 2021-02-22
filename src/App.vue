@@ -31,7 +31,27 @@ export default {
     // Sidebar,
     // Content,
     // Footer
+  },
+  data(){
+    return{
+      name:'Bilal'
+    }
+  },
+  methods:{
+    async function() {
+            // API Key
+            let Url="http://192.168.100.9/Project_Laravel/public/api/test"; 
+            try {
+                console.log(Url);
+                }
+                catch(error) {
+                console.log(error);
+                }
+            },
+    
   }
+
+  
 }
 
 
