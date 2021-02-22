@@ -594,5 +594,13 @@ export default {
 }
 </script>
 <style scoped>
-    
+    @media(max-width: 360px){
+        #navbarNav{
+                text-align: center;
+                padding: 5px;
+        }
+        #navbarNav ul li{
+            padding: 10px;
+        }
+    }
 </style>
