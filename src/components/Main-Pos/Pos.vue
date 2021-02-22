@@ -602,5 +602,9 @@ export default {
         #navbarNav ul li{
             padding: 10px;
         }
+        #navbarNav ul li a img {
+            display: none;
+        }
+       
     }
 </style>
