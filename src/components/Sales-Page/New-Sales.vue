@@ -2,7 +2,7 @@
         <body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
                 <Navbar/>
                     <!-- /.content-wrapper -->
-            <div class="content-wrapper p-2">
+            <div class="content-wrapper p-2 mb-5">
                         <div class="content-header">
                             <div class="container-fluid">
                                     <!-- alert start -->

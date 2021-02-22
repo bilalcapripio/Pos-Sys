@@ -4,7 +4,7 @@
             <div>
                 <Navbar/>
                     <!-- /.content-wrapper -->
-                    <div class="content-wrapper p-2">
+                    <div class="content-wrapper p-2 mb-5">
                         <div class="content-header">
                                     <!---Start Third card shop-->
                                     <h2 class="text-md">Sales List View / <small class="text-gray text-sm"><span>Search Purchase  </span></small></h2>
