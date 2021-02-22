@@ -87,8 +87,8 @@
                     <div class="container-fluid pt-2">
                         <div class="card border-top border-primary">
                             <div class="card-header">                                                                      
-                                <h5 class=" pt-4">
-                                    <i class="box-title text-primary fa fa-shopping-cart text-aqua"></i>
+                                <h5 class="pt-4">
+                                    <i class="box-title text-primary fa fa-shopping-cart text-success"></i>
                                         Sales Invoice
                                 </h5>
                                 <div class="border-top">
