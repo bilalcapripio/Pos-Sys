@@ -214,9 +214,9 @@
                     <div class="col-md-5">
                         <div class="container-fluid pt-2">
                             <div class="card border-top border-primary">
-                                <div class="card-header">
+                                <div class="card-header">                                                                      
 
-                                        <div class="row">                                           
+                                        <div class="row">
                                             <div class="col-md-6">
                                                 <div class="input-group pt-2">
                                                     <select name="" id="" class="form-control">
@@ -230,7 +230,7 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="input-group pt-2">
-                                                    <input type="text" class="form-control" placeholder=" Filter Items">
+                                                    <input type="text" class="form-control" placeholder="Last name">
                                                     <div class="input-group-prepend">
                                                         <!-- <i class="fa fa-barcode input-group-text"></i> -->
                                                         <button class="btn btn-primary">All</button>
@@ -238,147 +238,345 @@
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <div class="row mt-2 mb-3">
-                                            <div class="col-md-3  bg-success border-right rounded">
-                                                <div class="box ">
-                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                </div>
-                                                <div class="img-box p-2 text-center">
-                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                    <h3 class="lead pt-2">Rolex</h3>
-                                                    <h4 class="text-italic lead">$10,000</h4> 
-                                                </div>
-                                                
-                                            </div>
-                                            <div class="col-md-3 bg-success border-right rounded">
-                                                <div class="box ">
-                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                </div>
-                                                <div class="img-box p-2 text-center">
-                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                    <h3 class="lead pt-2">Rolex</h3>
-                                                    <h4 class="text-italic lead">$10,000</h4> 
-                                                </div>
-                                                
-                                            </div>
-                                            <div class="col-md-3 bg-success border-right rounded">
-                                                <div class="box ">
-                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                </div>
-                                                <div class="img-box p-2 text-center">
-                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                    <h3 class="lead pt-2">Rolex</h3>
-                                                    <h4 class="text-italic lead">$10,000</h4> 
-                                                </div>
-                                                
-                                            </div>
-                                            <div class="col-md-3 bg-success rounded">
-                                                <div class="box ">
-                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                </div>
-                                                <div class="img-box p-2 text-center">
-                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                    <h3 class="lead pt-2">Rolex</h3>
-                                                    <h4 class="text-italic lead">$10,000</h4> 
-                                                </div>
-                                                
-                                            </div>
-                                        </div>
-
-                                        <div class="row mt-2 mb-3">
-                                            <div class="col-md-3  bg-success border-right rounded">
-                                                <div class="box ">
-                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                </div>
-                                                <div class="img-box p-2 text-center">
-                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                    <h3 class="lead pt-2">Rolex</h3>
-                                                    <h4 class="text-italic lead">$10,000</h4> 
-                                                </div>
-                                                
-                                            </div>
-                                            <div class="col-md-3 bg-success border-right rounded">
-                                                <div class="box ">
-                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                </div>
-                                                <div class="img-box p-2 text-center">
-                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                    <h3 class="lead pt-2">Rolex</h3>
-                                                    <h4 class="text-italic lead">$10,000</h4> 
-                                                </div>
-                                                
-                                            </div>
-                                            <div class="col-md-3 bg-success border-right rounded">
-                                                <div class="box ">
-                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                </div>
-                                                <div class="img-box p-2 text-center">
-                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                    <h3 class="lead pt-2">Rolex</h3>
-                                                    <h4 class="text-italic lead">$10,000</h4> 
-                                                </div>
-                                                
-                                            </div>
-                                            <div class="col-md-3 bg-success rounded">
-                                                <div class="box ">
-                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                </div>
-                                                <div class="img-box p-2 text-center">
-                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                    <h3 class="lead pt-2">Rolex</h3>
-                                                    <h4 class="text-italic lead">$10,000</h4> 
-                                                </div>
-                                                
-                                            </div>
-                                        </div>
-
+                                        <div style="overflow-y: scroll;min-height: 100px;height: 600px; overflow-x:hidden">
                                         <div class="row mt-2">
-                                            <div class="col-md-3  bg-success border-right rounded">
-                                                <div class="box ">
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
                                                     <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                        <label class="text-center" style="color:black;">Rado Watch
+                                                        <br>    
+                                                            <span>₹ 20,768.00</span>
+                                                        </label>
+                                                        </center>
+                                                    </div>
                                                 </div>
-                                                <div class="img-box p-2 text-center">
-                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                    <h3 class="lead pt-2">Rolex</h3>
-                                                    <h4 class="text-italic lead">$10,000</h4> 
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                        <label class="text-center" style="color:black;">Rado Watch
+                                                        <br>    
+                                                            <span>₹ 20,768.00</span>
+                                                        </label>
+                                                        </center>
+                                                    </div>
                                                 </div>
                                                 
                                             </div>
-                                            <div class="col-md-3 bg-success border-right rounded">
-                                                <div class="box ">
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
                                                     <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                        <label class="text-center" style="color:black;">Rado Watch
+                                                        <br>    
+                                                            <span>₹ 20,768.00</span>
+                                                        </label>
+                                                        </center>
+                                                    </div>
                                                 </div>
-                                                <div class="img-box p-2 text-center">
-                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                    <h3 class="lead pt-2">Rolex</h3>
-                                                    <h4 class="text-italic lead">$10,000</h4> 
-                                                </div>
-                                                
                                             </div>
-                                            <div class="col-md-3 bg-success border-right rounded">
-                                                <div class="box ">
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
                                                     <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                        <label class="text-center" style="color:black;">Rado Watch
+                                                        <br>    
+                                                            <span>₹ 20,768.00</span>
+                                                        </label>
+                                                        </center>
+                                                    </div>
                                                 </div>
-                                                <div class="img-box p-2 text-center">
-                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                    <h3 class="lead pt-2">Rolex</h3>
-                                                    <h4 class="text-italic lead">$10,000</h4> 
-                                                </div>
-                                                
-                                            </div>
-                                            <div class="col-md-3 bg-success rounded">
-                                                <div class="box ">
-                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
-                                                </div>
-                                                <div class="img-box p-2 text-center">
-                                                    <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
-                                                    <h3 class="lead pt-2">Rolex</h3>
-                                                    <h4 class="text-italic lead">$10,000</h4> 
-                                                </div>
-                                                
                                             </div>
                                         </div>
+                                        <div class="row mt-2">
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                        <label class="text-center" style="color:black;">Rado Watch
+                                                        <br>    
+                                                            <span>₹ 20,768.00</span>
+                                                        </label>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                        <label class="text-center" style="color:black;">Rado Watch
+                                                        <br>    
+                                                            <span>₹ 20,768.00</span>
+                                                        </label>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                        <label class="text-center" style="color:black;">Rado Watch
+                                                        <br>    
+                                                            <span>₹ 20,768.00</span>
+                                                        </label>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                        <label class="text-center" style="color:black;">Rado Watch
+                                                        <br>    
+                                                            <span>₹ 20,768.00</span>
+                                                        </label>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                        <label class="text-center" style="color:black;">Rado Watch
+                                                        <br>    
+                                                            <span>₹ 20,768.00</span>
+                                                        </label>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                        <label class="text-center" style="color:black;">Rado Watch
+                                                        <br>    
+                                                            <span>₹ 20,768.00</span>
+                                                        </label>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                        <label class="text-center" style="color:black;">Rado Watch
+                                                        <br>    
+                                                            <span>₹ 20,768.00</span>
+                                                        </label>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                        <label class="text-center" style="color:black;">Rado Watch
+                                                        <br>    
+                                                            <span>₹ 20,768.00</span>
+                                                        </label>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                        <label class="text-center" style="color:black;">Rado Watch
+                                                        <br>    
+                                                            <span>₹ 20,768.00</span>
+                                                        </label>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                        <label class="text-center" style="color:black;">Rado Watch
+                                                        <br>    
+                                                            <span>₹ 20,768.00</span>
+                                                        </label>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                        <label class="text-center" style="color:black;">Rado Watch
+                                                        <br>    
+                                                            <span>₹ 20,768.00</span>
+                                                        </label>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                        <label class="text-center" style="color:black;">Rado Watch
+                                                        <br>    
+                                                            <span>₹ 20,768.00</span>
+                                                        </label>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                        <label class="text-center" style="color:black;">Rado Watch
+                                                        <br>    
+                                                            <span>₹ 20,768.00</span>
+                                                        </label>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                        <label class="text-center" style="color:black;">Rado Watch
+                                                        <br>    
+                                                            <span>₹ 20,768.00</span>
+                                                        </label>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                        <label class="text-center" style="color:black;">Rado Watch
+                                                        <br>    
+                                                            <span>₹ 20,768.00</span>
+                                                        </label>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="box box-default bg-success border" style="border-radius:5px">
+                                                    <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                    <div class="box-body box-profile">
+                                                        <center class="pt-1">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="image Not Found" style="height:60px" class=" img-responsive border border-gray">
+                                                        </center>
+                                                        <center class="py-3">
+                                                        <label class="text-center" style="color:black;">Rado Watch
+                                                        <br>    
+                                                            <span>₹ 20,768.00</span>
+                                                        </label>
+                                                        </center>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        
+
                                 </div>
                             
                             </div>
