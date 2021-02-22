@@ -21,7 +21,7 @@
                 <a class="dropdown-item" href="/Customers"><i class="fa fa-plus text-success "></i> Customer</a>
                 <a class="dropdown-item" href="/Suppliers"><i class="fa fa-plus text-success "></i> Supplier</a>
                 <a class="dropdown-item" href="/items"><i class="fa fa-plus text-success "></i> Items</a>
-                <a class="dropdown-item" href="#"><i class="fa fa-plus text-success "></i> Expense</a>
+                <a class="dropdown-item" href="/Expences"><i class="fa fa-plus text-success "></i> Expense</a>
               </div>
             </div>       
           </li>
@@ -38,14 +38,14 @@
           </li>
 
           <li class="nav-item dropdown">
-              <a class="nav-link" data-toggle="dropdown" href="Pages/Pos_Calculation/Add.html">
+              <a class="nav-link" data-toggle="dropdown" href="/pos">
                   <i class="fa fa-plus"></i>
                   POS
               </a>
           </li>
 
           <li class="nav-item dropdown">
-              <a class="nav-link" data-toggle="dropdown" href="#">
+              <a class="nav-link" data-toggle="dropdown" href="/">
                   <i class="fa fa-dashboard"></i>
                   Dashboard
               </a>
