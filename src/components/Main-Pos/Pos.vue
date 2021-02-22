@@ -238,7 +238,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div style="overflow-y: scroll;min-height: 100px;height: 600px; overflow-x:hidden">
+                                        <div style="overflow-y: scroll;min-height: 100px;height: 600px; overflow-x:hidden" id="scroll">
                                         <div class="row mt-2">
                                             <div class="col-md-3">
                                                 <div class="box box-default bg-success border" style="border-radius:5px">
@@ -605,6 +605,14 @@ export default {
         #navbarNav ul li a img {
             display: none;
         }
-       
+    }
+    ::-webkit-scrollbar{
+        background: #ddd;
+        width:5px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background: red;
+        border-radius: 10px;
     }
 </style>
+
