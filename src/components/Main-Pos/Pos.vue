@@ -285,6 +285,100 @@
                                                         
                                                     </div>
                                                 </div>
+
+                                                <div class="row mt-2">
+                                                    <div class="col-md-3  bg-success border-right rounded">
+                                                        <div class="box ">
+                                                            <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                        </div>
+                                                        <div class="img-box p-2 text-center">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
+                                                            <h3 class="lead pt-2">Rolex</h3>
+                                                            <h4 class="text-italic lead">$10,000</h4> 
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="col-md-3 bg-success border-right rounded">
+                                                        <div class="box ">
+                                                            <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                        </div>
+                                                        <div class="img-box p-2 text-center">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
+                                                            <h3 class="lead pt-2">Rolex</h3>
+                                                            <h4 class="text-italic lead">$10,000</h4> 
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="col-md-3 bg-success border-right rounded">
+                                                        <div class="box ">
+                                                            <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                        </div>
+                                                        <div class="img-box p-2 text-center">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
+                                                            <h3 class="lead pt-2">Rolex</h3>
+                                                            <h4 class="text-italic lead">$10,000</h4> 
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="col-md-3 bg-success rounded">
+                                                        <div class="box ">
+                                                            <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                        </div>
+                                                        <div class="img-box p-2 text-center">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
+                                                            <h3 class="lead pt-2">Rolex</h3>
+                                                            <h4 class="text-italic lead">$10,000</h4> 
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="row mt-2">
+                                                    <div class="col-md-3  bg-success border-right rounded">
+                                                        <div class="box ">
+                                                            <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                        </div>
+                                                        <div class="img-box p-2 text-center">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
+                                                            <h3 class="lead pt-2">Rolex</h3>
+                                                            <h4 class="text-italic lead">$10,000</h4> 
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="col-md-3 bg-success border-right rounded">
+                                                        <div class="box ">
+                                                            <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                        </div>
+                                                        <div class="img-box p-2 text-center">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
+                                                            <h3 class="lead pt-2">Rolex</h3>
+                                                            <h4 class="text-italic lead">$10,000</h4> 
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="col-md-3 bg-success border-right rounded">
+                                                        <div class="box ">
+                                                            <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                        </div>
+                                                        <div class="img-box p-2 text-center">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
+                                                            <h3 class="lead pt-2">Rolex</h3>
+                                                            <h4 class="text-italic lead">$10,000</h4> 
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="col-md-3 bg-success rounded">
+                                                        <div class="box ">
+                                                            <span class="badge badge-danger push-right">Qty: 54.00</span>
+                                                        </div>
+                                                        <div class="img-box p-2 text-center">
+                                                            <img src="@/assets/Img/watch_thumb.jpg" alt="Rolex Watch"  class="border img-fluid" > 
+                                                            <h3 class="lead pt-2">Rolex</h3>
+                                                            <h4 class="text-italic lead">$10,000</h4> 
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
                                         </div>
                                     
                                     </div>
