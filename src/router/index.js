@@ -54,6 +54,7 @@ import Add_User from '@/components/Users/User.vue';
 
 
 
+
 const routes=[
     {path:'/', name:'Content', component:Content},
     {path:'/pos', name:'pos', component:pos},
