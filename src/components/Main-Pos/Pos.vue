@@ -78,12 +78,10 @@
             </li>
             </ul>
         </nav>   
-
 <!-- //////////////////----End Navbar----//////////////////  -->
-        <main class="container mt-5">
-
+        <main class="container-fluid mt-1 p-5">
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-md-8">
                     <div class="container-fluid pt-2">
                         <div class="card border-top border-primary">
                             <div class="card-header">                                                                      
@@ -99,14 +97,18 @@
                                                     <i class="fa fa-user input-group-text"></i>
                                                 </div>
                                                 <select name="" id="" class="form-control">
-                                                    <option value="">Walk-in-customer</option>
-                                                    <option value="">1</option>
-                                                    <option value="">1</option>
-                                                    <option value="">1</option>
-                                                    <option value="">1</option>
+                                                    <option selected>Walk-in-customer</option>
+                                                    <option value="">John P</option>
+                                                    <option value="">Chris Moris</option>
+                                                    <option value="">Anna Bella</option>
+                                                    <option value="">Edward</option>
+                                                    <option value="">John P</option>
+                                                    <option value="">Chris Moris</option>
+                                                    <option value="">Anna Bella</option>
+                                                    <option value="">Edward</option>
                                                 </select>
                                                 <div class="input-group-prepend">
-                                                    <i class="fa fa-user-plus text-primary fa-lg input-group-text"></i>
+                                                    <i class="fa fa-user-plus text-success fa-lg input-group-text"></i>
                                                 </div>
                                             </div>
                                         </div>
@@ -125,7 +127,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
                     <div class="container-fluid pt-2">
                         <div class="card border-top border-primary">
                             <div class="card-header">                                                                      
@@ -135,10 +137,12 @@
                                             <div class="input-group pt-2">
                                                 <select name="" id="" class="form-control">
                                                     <option value="">All Categories</option>
-                                                    <option value="">1</option>
-                                                    <option value="">1</option>
-                                                    <option value="">1</option>
-                                                    <option value="">1</option>
+                                                    <option value="">Jeans</option>
+                                                    <option value="">Casual Shirts</option>
+                                                    <option value="">Formal Shirts</option>
+                                                    <option value="">Men Wears</option>
+                                                    <option value="">Shoes</option>
+                                                    
                                                 </select>
                                             </div>
                                         </div>
@@ -153,12 +157,10 @@
                                     </div>
                                 <!-- </div> -->
                             </div>
-                          
                         </div>
                     </div>
                 </div>
             </div>
-
         </main>
     </div>
 </template>
