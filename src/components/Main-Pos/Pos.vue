@@ -7,38 +7,38 @@
                 <h5>Ultimate Inventory with POS</h5>
             </li>
         
-        <li class="nav-item pl-3">
-            <a class="nav-link"  href="/Sales">
-                <i class="fa fa-list text-yellow"></i>
-                Sales List
-            </a>
-        </li>
-        <li class="nav-item pl-2">
-            <a class="nav-link" data-toggle="dropdown" href="#">
-                <i class="fa fa-calculator text-yellow "></i>
-                New Invoice
-            </a>
-        </li>
-        <li class="nav-item pl-2">
-            <a class="nav-link" data-toggle="dropdown" href="/items">
-                <i class="fa  fa-cubes text-yellow "></i>
-                Item List
-            </a>
-        </li>
+            <li class="nav-item pl-3">
+                <a class="nav-link"  href="/Sales">
+                    <i class="fa fa-list text-yellow"></i>
+                    Sales List
+                </a>
+            </li>
+            <li class="nav-item pl-2">
+                <a class="nav-link" data-toggle="dropdown" href="#">
+                    <i class="fa fa-calculator text-yellow "></i>
+                    New Invoice
+                </a>
+            </li>
+            <li class="nav-item pl-2">
+                <a class="nav-link" data-toggle="dropdown" href="/items">
+                    <i class="fa  fa-cubes text-yellow "></i>
+                    Item List
+                </a>
+            </li>
         </ul>
 
         <!-- Right navbar links -->
         <ul class="navbar-nav ml-auto">
           <!-- Messages Dropdown Menu -->
           <li class="nav-item dropdown">
-              <a class="nav-link" data-toggle="dropdown" href="#">
+              <a class="nav-link"  href="/">
                   <i class="fa fa-language"></i>
                   English
               </a>
           </li>
 
           <li class="nav-item dropdown">
-              <a class="nav-link" data-toggle="dropdown" href="/pos">
+              <a class="nav-link" href="/pos">
                   <i class="fa fa-plus"></i>
                   POS
               </a>
