@@ -1,86 +1,87 @@
 <template>
 
 <div>
-        <nav class=" navbar navbar-expand navbar-primary navbar-dark">
+        <nav class=" navbar navbar-expand-lg navbar-primary navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <!-- Left navbar links -->
-            <ul class="navbar-nav">
-                <li class="nav-item pl-5 pt-2 text-light">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item pl-5 pt-2 text-light">
+                                    <h5>Ultimate Inventory with POS</h5>
+                                </li>
+                                <li class="nav-item pl-3">
+                                    <a class="nav-link" data-toggle="dropdown" href="#">
+                                        <i class="fa fa-list text-yellow"></i>
+                                        Sales List
+                                    </a>
+                                </li>
+                                <li class="nav-item pl-2">
+                                    <a class="nav-link" data-toggle="dropdown" href="#">
+                                        <i class="fa fa-calculator text-yellow "></i>
+                                        New Invoice
+                                    </a>
+                                </li>
+                                <li class="nav-item pl-2">
+                                <a class="nav-link" data-toggle="dropdown" href="#">
+                                    <i class="fa  fa-cubes text-yellow "></i>
+                                    Item List
+                                </a>
+                            </li>
+                        </ul>
 
-                        <h5>Ultimate Inventory with POS</h5>
-                        <!-- <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fa fa-bars"></i></a> -->
-                    </li>
-                    <!-- <li class="nav-item d-none d-sm-inline-block">
-                        <a href="#" class="nav-link">POS</a>
-                    </li> -->
-                    <li class="nav-item pl-3">
-                        <a class="nav-link" data-toggle="dropdown" href="#">
-                            <i class="fa fa-list text-yellow"></i>
-                            Sales List
-                        </a>
-                    </li>
-                    <li class="nav-item pl-2">
-                        <a class="nav-link" data-toggle="dropdown" href="#">
-                            <i class="fa fa-calculator text-yellow "></i>
-                            New Invoice
-                        </a>
-                    </li>
-                    <li class="nav-item pl-2">
-                    <a class="nav-link" data-toggle="dropdown" href="#">
-                        <i class="fa  fa-cubes text-yellow "></i>
-                        Item List
-                    </a>
-                </li>
-            </ul>
+                        <!-- Right navbar links -->
+                        <ul class="navbar-nav ml-auto">
+                            <!-- Messages Dropdown Menu -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" data-toggle="dropdown" href="#">
+                                    <i class="fa fa-language"></i>
+                                    English
+                                </a>
+                            </li>
 
-            <!-- Right navbar links -->
-            <ul class="navbar-nav ml-auto">
-                <!-- Messages Dropdown Menu -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link" data-toggle="dropdown" href="#">
-                        <i class="fa fa-language"></i>
-                        English
-                    </a>
-                </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" data-toggle="dropdown" href="/pos">
+                                    <i class="fa fa-plus"></i>
+                                    POS
+                                </a>
+                            </li>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link" data-toggle="dropdown" href="/pos">
-                        <i class="fa fa-plus"></i>
-                        POS
-                    </a>
-                </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" data-toggle="dropdown" href="/">
+                                    <i class="fa fa-dashboard"></i>
+                                    Dashboard
+                                </a>
+                            </li>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link" data-toggle="dropdown" href="/">
-                        <i class="fa fa-dashboard"></i>
-                        Dashboard
-                    </a>
-                </li>
+                            <li class="dropdown user user-menu open mt-2 ml-2">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                <img src="../../assets/Img/admin.png" class="user-image" alt="User Image">
+                                <span class="hidden-xs text-light">Admin</span>
+                                </a>
 
-                <li class="dropdown user user-menu open mt-2 ml-2">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-                    <img src="../../assets/Img/admin.png" class="user-image" alt="User Image">
-                    <span class="hidden-xs text-light">Admin</span>
-                    </a>
+                                <ul class="dropdown-menu bg-gradient-navy rounded">
+                                <!-- User image -->
+                                <li class="user-header">
+                                    <img src="#" class="img-circle img-fluid" alt="User Image">
+                                        <p>Admin<small>Year 2021</small> </p>
+                                </li>
+                                <!-- Menu Body -->
+                                <!-- Menu Footer-->
+                                <li class="user-footer">
+                                    <div class="pull-left">
+                                    <a href="#" class="btn btn-primary btn-flat">Profile</a>
+                                    </div>
+                                    <div class="pull-right">
+                                    <a href="Logout.html" class="btn btn-danger btn-flat">Sign out</a>
+                                    </div>
+                                </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
 
-                    <ul class="dropdown-menu bg-gradient-navy rounded">
-                    <!-- User image -->
-                    <li class="user-header">
-                        <img src="#" class="img-circle img-fluid" alt="User Image">
-                            <p>Admin<small>Year 2021</small> </p>
-                    </li>
-                    <!-- Menu Body -->
-                    <!-- Menu Footer-->
-                    <li class="user-footer">
-                        <div class="pull-left">
-                        <a href="#" class="btn btn-primary btn-flat">Profile</a>
-                        </div>
-                        <div class="pull-right">
-                        <a href="Logout.html" class="btn btn-danger btn-flat">Sign out</a>
-                        </div>
-                    </li>
-                    </ul>
-                </li>
-            </ul>
         </nav>   
 
         <!-- //////////////////----End Navbar----//////////////////  -->
@@ -215,7 +216,6 @@
                         <div class="container-fluid pt-2">
                             <div class="card border-top border-primary">
                                 <div class="card-header">                                                                      
-
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="input-group pt-2">
