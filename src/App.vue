@@ -34,24 +34,19 @@ export default {
   },
   data(){
     return{
-      name:'Bilal'
+      url:'http://192.168.100.9/Project_Laravel/public/api/test',
     }
   },
-  methods:{
-    async function() {
-            // API Key
-            let Url="http://192.168.100.9/Project_Laravel/public/api/test"; 
-            try {
-                console.log(Url);
-                }
-                catch(error) {
-                console.log(error);
-                }
-            },
-    
-  }
-
+  mounted:{
+    Vue.axios.get(this.url)
+    .then((res)=>{
+      console.log(res);
+    }),
+    catch(error){
+      console.log(error);
+    }
   
+}
 }
 
 
