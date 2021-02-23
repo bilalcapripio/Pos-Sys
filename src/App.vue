@@ -44,9 +44,9 @@ export default {
   // },
   methods:{
     async function(){
-      let baseURL='http://192.168.100.9/Project_Laravel/public/api/test';
+      // let baseURL='http://192.168.100.9/Project_Laravel/public/api/test';
       try{
-        let response = await fetch(baseURL);
+        let response = await fetch('http://192.168.100.9/Project_Laravel/public/api/test');
         let data = await response.json();
         console.log(data);
         }

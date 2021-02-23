@@ -32,23 +32,17 @@
                                                         <option>Walk-In Customer</option>
                                                     </select>                                
                                                     <br>
-                                                    <label>Sales Date <span class="text-danger">*</span></label>
-                                                    <select id="inputState" class="form-control">
-                                                        <option selected>Choose...</option>
-                                                        <option>Walk-In Customer</option>
-                                                        <option>Walk-In Customer</option>
-                                                        <option>Walk-In Customer</option>
-                                                        <option>Walk-In Customer</option>
-                                                        <option>Walk-In Customer</option>
-                                                    </select>       
+                                                    <label>Status  <span class="text-danger">*</span></label>
+                                                    <input type="text" class="form-control" placeholder="">
+
                                                 </form>
                                             </div>
                                             <div class="col-md-6">
                                                 <form>
-                                                        <label>Customer Name <span class="text-danger">*</span></label>
+                                                        <label>Sales Date  <span class="text-danger">*</span></label>
                                                         <input type="text" class="form-control" placeholder="First name">
                                                         <br>
-                                                        <label>Customer Name <span class="text-danger">*</span></label>
+                                                        <label>Refrence no <span class="text-danger">*</span></label>
                                                         <input type="text" class="form-control" placeholder="Last name">
                                                 </form>
                                             </div>
