@@ -41,7 +41,6 @@ export default {
     //     console.log(response);
     //     })
       records: async function(){
-        
           try{
           fetch('http://192.168.100.9/Project_Laravel/public/api/country')
           .then(function(res){
