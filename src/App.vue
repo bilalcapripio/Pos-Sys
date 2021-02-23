@@ -41,18 +41,26 @@ export default {
       check:[],
     }
   },
+  mounted:{
+    pos(){
+      return this.check;
+    }
+  },
   // mounted(){
   //   this.records();
   // },
-      mounted(){
-        axios.get("http://192.168.100.9/Project_Laravel/public/api/test")
-          .then(response => {
-            this.check = response.data.results
-        })
-
-        .catch(error => {
-            console.log(error)
-        })
+      methods:{
+        pos(){
+          axios
+          .get("http://192.168.100.9/Project_Laravel/public/api/test")
+                  .then(response => {
+                    this.check = response.data.results
+                })
+                .catch(error => {
+                    console.log(error)
+                  })
+        }
+      
 
         
 
