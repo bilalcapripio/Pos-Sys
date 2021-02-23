@@ -33,17 +33,33 @@ export default {
     // Footer
   },
   mounted(){
-    this.state();
-
+    this.records();
   },
   methods:{
-    state: axios.get("http://192.168.100.9/Project_Laravel/public/api/test")
-      .then(function(response) {
-        console.log(response);
-        })
-}
+    // state: axios.get("http://192.168.100.9/Project_Laravel/public/api/test")
+    //   .then(function(response) {
+    //     console.log(response);
+    //     })
+      records: async function(){
+        
+          try{
+          fetch('http://192.168.100.9/Project_Laravel/public/api/country')
+          .then(function(res){
+                res.json()
+                .then(function(data){
+                  console.log(data)
+                })
+                })
+                  }
+              catch(error){
+                console.log(error)
+              }
+      }
+    } 
+    
 
 }
+
 
 
 </script>
