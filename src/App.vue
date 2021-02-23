@@ -12,10 +12,6 @@
           <!-- <Sidebar/>
           <Content/>
           <Footer/> -->
-          <div  v-for="names in check" v-bind:key="names.id">
-                    <span>{{names}}</span>
-          </div>
-          
     </div>
   </body>
 
@@ -36,34 +32,23 @@ export default {
     // Content,
     // Footer
   },
-  data(){
-    return{
-      check:[],
-    }
+  mounted(){
+    this.records();
   },
-  mounted:{
-    pos(){
-      return this.check;
-    }
-  },
-  // mounted(){
-  //   this.records();
-  // },
-      methods:{
-        pos(){
-          axios
-          .get("http://192.168.100.9/Project_Laravel/public/api/test")
-                  .then(response => {
-                    this.check = response.data.results
-                })
-                .catch(error => {
-                    console.log(error)
-                  })
-        }
-      
-
-        
-
+  methods:{
+    // state: axios.get("http://192.168.100.9/Project_Laravel/public/api/test")
+    //   .then(function(response) {
+    //     console.log(response);
+    //     })
+      records:function(){
+          try{ 
+            fetch('http://192.168.100.9/Project_Laravel/public/api/test')
+            .then(response => response.json())
+            .then(data => console.log(data))
+          }catch(error){
+                console.log(error)
+              }
+      }
     } 
     
 
