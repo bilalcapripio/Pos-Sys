@@ -32,18 +32,18 @@ export default {
     // Content,
     // Footer
   },
-  //  data(){
+  // data(){
   //   return{
   //     state:[],
   //   }
   // },
-  // computed:{
+  // mounted:{
   //   record(){ 
   //     return this.state;
   //   }    
   // },
   methods:{
-    records : async function(){
+    async function(){
       let baseURL='http://192.168.100.9/Project_Laravel/public/api/test';
       try{
         let response = await fetch(baseURL);
@@ -53,11 +53,7 @@ export default {
           console.log(error)
         }
       }
-
-
-
-    }
-  
+    } 
 }
 
 
