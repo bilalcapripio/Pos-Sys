@@ -32,9 +32,12 @@ export default {
     // Content,
     // Footer
   },
-
   mounted(){
-      this.axios.get("http://192.168.100.9/Project_Laravel/public/api/test")
+    this.state();
+
+  },
+  methods:{
+    state: axios.get("http://192.168.100.9/Project_Laravel/public/api/test")
       .then(function(response) {
         console.log(response);
         })
