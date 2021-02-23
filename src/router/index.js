@@ -55,6 +55,10 @@ import Print from '@/components/Items/Print.vue';
 import Send from '@/components/Sms/Send.vue';
 import Template from '@/components/Sms/Template.vue';
 
+// import axios from 'axios';
+// import VueAxios from 'vue-axios';
+// const app = Vue.createApp();
+// app.use(VueAxios, axios);
 
 
 
