@@ -36,7 +36,7 @@ export default {
     this.records();
   },
   methods:{
-    // state: axios.get("http://192.168.100.9/Project_Laravel/public/api/test")
+    // state:axios.get("http://192.168.100.9/Project_Laravel/public/api/test")
     //   .then(function(response) {
     //     console.log(response);
     //     })
