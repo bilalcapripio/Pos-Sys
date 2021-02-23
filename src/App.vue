@@ -9,6 +9,7 @@
           <router-link to="/Footer">Footer</router-link> -->
           <!-- <Navbar/> -->
           <router-view/>
+          <h1>{{}}</h1>
           <!-- <Sidebar/>
           <Content/>
           <Footer/> -->
@@ -32,28 +33,21 @@ export default {
     // Content,
     // Footer
   },
-  mounted(){
-    this.records();
+  data(){
+    return{
+      check:[],
+
+    }
   },
-  methods:{
-    // state: axios.get("http://192.168.100.9/Project_Laravel/public/api/test")
-    //   .then(function(response) {
-    //     console.log(response);
-    //     })
-      records: async function(){
-          try{
-          fetch('http://192.168.100.9/Project_Laravel/public/api/country')
-          .then(function(res){
-                res.json()
-                .then(function(data){
-                  console.log(data)
-                })
-                })
-                  }
-              catch(error){
-                console.log(error)
-              }
-      }
+  // mounted(){
+  //   this.records();
+  // },
+   mounted(){
+       axios
+       .get("http://192.168.100.9/Project_Laravel/public/api/test")
+
+        
+
     } 
     
 
