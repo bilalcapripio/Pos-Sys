@@ -11200,7 +11200,7 @@
   .layout-footer-fixed .wrapper .main-footer {
     bottom: 0;
     left: 0;
-    position: fixed;
+    /* position: fixed; */
     right: 0;
     z-index: 1032;
   }
