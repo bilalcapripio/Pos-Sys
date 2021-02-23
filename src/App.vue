@@ -32,29 +32,14 @@ export default {
     // Content,
     // Footer
   },
-  // data(){
-  //   return{
-  //     state:[],
-  //   }
-  // },
-  // mounted:{
-  //   record(){ 
-  //     return this.state;
-  //   }    
-  // },
-  methods:{
-    async function(){
-      // let baseURL='http://192.168.100.9/Project_Laravel/public/api/test';
-      try{
-        let response = await fetch('http://192.168.100.9/Project_Laravel/public/api/test');
-        let data = await response.json();
-        console.log(data);
-        }
-        catch(error){
-          console.log(error)
-        }
-      }
-    } 
+
+  mounted(){
+      this.axios.get("http://192.168.100.9/Project_Laravel/public/api/test")
+      .then(function(response) {
+        console.log(response);
+        })
+}
+
 }
 
 

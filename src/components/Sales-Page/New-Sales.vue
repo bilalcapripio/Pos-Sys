@@ -40,10 +40,10 @@
                                             <div class="col-md-6">
                                                 <form>
                                                         <label>Sales Date  <span class="text-danger">*</span></label>
-                                                        <input type="text" class="form-control" placeholder="First name">
+                                                        <input type="Date" class="form-control" placeholder="Sales Date">
                                                         <br>
                                                         <label>Refrence no <span class="text-danger">*</span></label>
-                                                        <input type="text" class="form-control" placeholder="Last name">
+                                                        <input type="text" class="form-control" placeholder="Refrence no">
                                                 </form>
                                             </div>
                                         </div>    
