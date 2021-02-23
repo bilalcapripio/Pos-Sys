@@ -9,10 +9,13 @@
           <router-link to="/Footer">Footer</router-link> -->
           <!-- <Navbar/> -->
           <router-view/>
-          <h1>{{}}</h1>
           <!-- <Sidebar/>
           <Content/>
           <Footer/> -->
+          <div  v-for="names in check" v-bind:key="names.id">
+                    <span>{{names}}</span>
+          </div>
+          
     </div>
   </body>
 
@@ -36,15 +39,20 @@ export default {
   data(){
     return{
       check:[],
-
     }
   },
   // mounted(){
   //   this.records();
   // },
-   mounted(){
-       axios
-       .get("http://192.168.100.9/Project_Laravel/public/api/test")
+      mounted(){
+        axios.get("http://192.168.100.9/Project_Laravel/public/api/test")
+          .then(response => {
+            this.check = response.data.results
+        })
+
+        .catch(error => {
+            console.log(error)
+        })
 
         
 
