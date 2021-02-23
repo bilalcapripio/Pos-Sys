@@ -7,11 +7,11 @@
           <router-link to="/Content">Content</router-link>
           <router-link to="/Sidebar">Sidebar</router-link>
           <router-link to="/Footer">Footer</router-link> -->
-          <Navbar/>
+          <!-- <Navbar/> -->
           <router-view/>
-          <Sidebar/> -->
+          <!-- <Sidebar/>
           <Content/>
-          <Footer/>
+          <Footer/> -->
     </div>
   </body>
 
@@ -19,24 +19,47 @@
 
 <script>
 
-import Navbar from './components/Navbar.vue'
-import Sidebar from './components/Sidebar.vue'
-import Content from './components/Content.vue'
-import Footer from './components/Footer.vue'
+// import Navbar from './components/Navbar.vue'
+// import Sidebar from './components/Sidebar.vue'
+// import Content from './components/Content.vue'
+// import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    Navbar,
-    Sidebar,
-    Content,
-    Footer
+    // Navbar,
+    // Sidebar,
+    // Content,
+    // Footer
   },
-  data(){
+   data(){
     return{
+      state:[],
     }
   },
-  methods:{}
+  computed:{
+    records(){ 
+      return this.state;
+    }
+  },
+  methods:{
+    records : async function(){
+      try{
+        let res='http://192.168.100.9/Project_Laravel/public/api/test'
+        .then((res)=>{
+          let x = res.json();
+          console.log(x);
+        })
+        catch(error)
+        {
+          console.log(error)
+        }
+      }
+
+
+
+    }
+  }
 }
 
 
