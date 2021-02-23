@@ -7,11 +7,11 @@
           <router-link to="/Content">Content</router-link>
           <router-link to="/Sidebar">Sidebar</router-link>
           <router-link to="/Footer">Footer</router-link> -->
-          <!-- <Navbar/> -->
+          <Navbar/>
           <router-view/>
-          <!-- <Sidebar/> -->
-          <!-- <Content/> -->
-          <!-- <Footer/> -->
+          <Sidebar/> -->
+          <Content/>
+          <Footer/>
     </div>
   </body>
 
@@ -19,34 +19,24 @@
 
 <script>
 
-// import Navbar from './components/Navbar.vue'
-// import Sidebar from './components/Sidebar.vue'
-// import Content from './components/Content.vue'
-// import Footer from './components/Footer.vue'
+import Navbar from './components/Navbar.vue'
+import Sidebar from './components/Sidebar.vue'
+import Content from './components/Content.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    // Navbar,
-    // Sidebar,
-    // Content,
-    // Footer
+    Navbar,
+    Sidebar,
+    Content,
+    Footer
   },
   data(){
     return{
-      url:'http://192.168.100.9/Project_Laravel/public/api/test',
     }
   },
-  mounted:{
-    Vue.axios.get(this.url)
-    .then((res)=>{
-      console.log(res);
-    }),
-    catch(error){
-      console.log(error);
-    }
-  
-}
+  methods:{}
 }
 
 
