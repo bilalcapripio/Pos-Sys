@@ -31,8 +31,7 @@
                                                                         <div class="form-group">
                                                                             <label for="category" class="col-sm-2 control-label">State Name<label class="text-danger">*</label></label>
                                                                         <div class="col-sm-4">
-                                                                        <input type="text" class="form-control input-sm" id="category" name="state_name" placeholder="" onkeyup="shift_cursor(event,'description')" value="" autofocus="">
-                                                                            <span id="category_msg" style="display:none" class="text-danger"></span>
+                                                                        <input type="text" class="form-control input-sm" id="category" name="state_name" placeholder="">
                                                                         </div>
                                                                         </div> 
                                                                         <div class="form-group">
@@ -42,7 +41,6 @@
                                                                                 <option value="">-Select-</option>
                                                                                 <option>Turkey</option><option value="Iran">Iran</option>                 
                                                                             </select>
-                                                                            <span id="country_msg" style="display:none" class="text-danger"></span>
                                                                             </div>
                                                                         </div>
                                                                     </div>

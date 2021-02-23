@@ -8,6 +8,7 @@
     <div class="content-wrapper">
       <!-- Content Header (Page header) -->
       <div class="content-header">
+        <h1 class="lead p-2 mb-2 text-italic family">Dashboard <small class="text-md">Overall Information on Single Screen</small></h1>
         <div class="container-fluid">
           <!-- alert start -->
           <div class="alert alert-success alert-dismissible fade show" role="alert">
